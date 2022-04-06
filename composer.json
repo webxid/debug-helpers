@@ -1,0 +1,22 @@
+{
+    "name": "webxid/debug-helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PavloM",
+            "email": "webxid@ukr.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WebXID\\DebugHelpers\\": "src/"
+        },
+        "files": [
+            "helpers/dumpers.php",
+            "helpers/loggers.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
